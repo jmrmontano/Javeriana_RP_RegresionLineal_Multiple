@@ -6,7 +6,7 @@ clasificación multiclase y binaria.
 clasificadores es independiente de la partición entre los datos de entrenamiento y prueba
 
 ## Tabla de Contenidos
-* [Descripción](#descripción-de-la-solución)
+* [Descripción](#descripción)
 * [Screenshots](#screenshots)
 * [Requerimientos](#requerimientos)
 * [Instalacion](#instalación)
