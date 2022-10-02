@@ -1,5 +1,9 @@
-# Titulo de la Solución: XXXXXXXXXXXXXXXXX
->Este documento presenta la decripción de la solución, la arquitectura y las principales consideraciones y pasos requeridos para realizar el despliegue e instalación del X.
+# Titulo de la Solución: Clasifiación no lineal
+* Visualizar e interpretar datos de acuerdo con la estadística descriptiva de los mismos.
+* Comparar el desempeño de diferentes estrategias de clasificación no lineal en problemas de
+clasificación multiclase y binaria.
+* Utilizar el método de validación simple y cruzada para garantizar que el rendimiento de los
+clasificadores es independiente de la partición entre los datos de entrenamiento y prueba
 
 ## Tabla de Contenidos
 * [Descripción](#descripción-de-la-solución)
@@ -11,6 +15,14 @@
 * [Autores](#autores)
 
 ## Descripción
+
+Clasifiación multiclase:
+
+1. Caso 1 - SVM con kernel polinomial y transformación binaria OVA
+2. Caso 2 - SVM con kernel polinomial y transformación binaria OVO
+3. Caso 3 - MLP
+4. Caso 4 - MLP con validación k-fold cross-validation
+
 
 ## Proceso de ejecucion y despliegue
 
@@ -24,7 +36,6 @@ Para llenar
 Para llenar
 
 ## Instalación: 
-**Nota:** Obligatorio: Minimo debe haber en el proyecto el archivo que permita instalar el ambiente necesario para el despliegue de la solución y los comandos ejecutados para la instalacion. Por ejemplo, si es Python un requeriments.txt o un archivo de DESCRIPTION en R. 
 
 ## Configuracion
 
