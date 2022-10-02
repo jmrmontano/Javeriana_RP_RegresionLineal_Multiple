@@ -1,4 +1,4 @@
-# Titulo de la Solución: Clasifiación no lineal
+# Titulo: Clasifiación no lineal
 * Visualizar e interpretar datos de acuerdo con la estadística descriptiva de los mismos.
 * Comparar el desempeño de diferentes estrategias de clasificación no lineal en problemas de
 clasificación multiclase y binaria.
