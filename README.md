@@ -1,4 +1,4 @@
-# Titulo: Clasifiación no lineal
+# Titulo: Clasifiación utilizando SVM
 * Visualizar e interpretar datos de acuerdo con la estadística descriptiva de los mismos.
 * Comparar el desempeño de diferentes estrategias de clasificación no lineal en problemas de
 clasificación multiclase y binaria.
