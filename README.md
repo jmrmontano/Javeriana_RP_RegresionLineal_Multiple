@@ -1,9 +1,7 @@
 # Titulo: Clasifiación utilizando SVM
-* Visualizar e interpretar datos de acuerdo con la estadística descriptiva de los mismos.
-* Comparar el desempeño de diferentes estrategias de clasificación no lineal en problemas de
-clasificación multiclase y binaria.
-* Utilizar el método de validación simple y cruzada para garantizar que el rendimiento de los
-clasificadores es independiente de la partición entre los datos de entrenamiento y prueba
+* Utilizar modelos de regresión para la estimación de datos.
+* Diseñar una estrategia que garantice la correcta selección del modelo de regresión, teniendo como
+referencia el posible underfitting/overfitting sobre los datos de entrenamiento
 
 ## Tabla de Contenidos
 * [Descripción](#descripción)
@@ -13,24 +11,21 @@ clasificadores es independiente de la partición entre los datos de entrenamient
 
 ## Descripción
 
-Clasifiación multiclase:
+Regresion Lineal:
 
-Para el caso 1 y caso 2 los datos corresponden a:
-La electromiografía (EMG) es una técnica para evaluar y registrar la actividad eléctrica producida por los músculos esqueléticos. La EMG se realiza usando un instrumento llamado electromiógrafo para producir un registro llamado electromiograma.
+ El archivo “data.npy” es un diccionario, el cual contiene dos matrices: training set y testing set. El conjunto de entrenamiento, “training set”, esta compuesto por 500 observaciones referentes al número de Scooters eléctricos alquilados en una determinada ciudad.
 
-1. Caso 1 - SVM con kernel polinomial y transformación binaria OVA
-2. Caso 2 - SVM con kernel polinomial y transformación binaria OVO
-3. Caso 3 - MLP
+El conteo total de alquileres diarios corresponde a “Count”, mientras que “Casual” y “Registered”
+indican si los alquileres corresponden a usuarios casuales o registrados, respectivamente.
 
 ## datos:
 
-Dentro del folder "data\raw" se encuentra el archivo data.rar. Este archivo contiene:
+Dentro del folder "data\raw" se encuentra el archivo data.npy. Este archivo contiene:
 
-1. Punto 1. Datos en formato csv para 4 clases que corresponden a los casos 1 y 2.
-2. Punto 2. Datos en formato csv para los casos 3
+500 observaciones referentes al número de Scooters eléctricos alquilados en una determinada ciudad.
 
 ## Requerimientos
-Se Ejecuto en un ambiente local los modelos SVM y MLP.
+Se Ejecuto en un ambiente local los modelos regresion lineal
 No requiere GPU para realizar pruebas.
 
 ## Support
