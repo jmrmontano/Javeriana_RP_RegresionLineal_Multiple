@@ -29,4 +29,4 @@ Se Ejecuto en un ambiente local los modelos regresion lineal
 No requiere GPU para realizar pruebas.
 
 ## Support
-Johan Montano - jmrmontano@hotmail
+Johan Montano - jmrmontano@hotmail.com
