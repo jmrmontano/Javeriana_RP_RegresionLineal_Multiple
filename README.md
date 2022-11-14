@@ -1,7 +1,7 @@
-# Titulo: Clasifiación utilizando SVM
-* Utilizar modelos de regresión para la estimación de datos.
-* Diseñar una estrategia que garantice la correcta selección del modelo de regresión, teniendo como
-referencia el posible underfitting/overfitting sobre los datos de entrenamiento
+# Titulo: Modelo de regresion lineal
+* Utilizar modelos de regresi´on para la estimaci´on de datos.
+* Diseñar una estrategia que garantice la correcta seleccion del modelo de regresion, teniendo como
+referencia el posible underfitting/overfitting sobre los datos de entrenamiento.
 
 ## Tabla de Contenidos
 * [Descripción](#descripción)
@@ -17,6 +17,9 @@ Regresion Lineal:
 
 El conteo total de alquileres diarios corresponde a “Count”, mientras que “Casual” y “Registered”
 indican si los alquileres corresponden a usuarios casuales o registrados, respectivamente.
+
+a.) Para un d´ıa festivo (Holiday = 1), realice una regresi´on polinomial de “Casual” en funcion de “Temperature”; es decir, x = “Temperature” y y = “Casual”. Dise˜ne una estrategia para determinar el orden del polinomio que realiza la mejor estimacion.
+b.) Con base en el mejor modelo obtenido seg´un su criterio, realice las predicciones de y sobre el conjunto de prueba “testing set”*.
 
 ## datos:
 
